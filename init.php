@@ -3,7 +3,7 @@
 defined('HOLIDAY_VERSION') OR define('HOLIDAY_VERSION', '1.0.1');
 
 	
-Kohana::$config->load('menu')
+Kohana::$config->load('adm')
     ->set('holiday', array(
         'title' => 'Праздники',
         'url' => 'holiday',
